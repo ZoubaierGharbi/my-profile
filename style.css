@@ -1,0 +1,91 @@
+body {
+background-image: url('background.jpg');
+background-size: cover;
+color:#575F7D;
+font-weight: lighter;
+font-size: 17px;}
+
+h1,h2,p{font-family: 'Roboto Slab', serif;}
+
+h1 {
+	letter-spacing: 1px;
+	font-size: 40px;}
+
+h2 {
+	color: #7ECE90;
+	letter-spacing: 0px;
+	font-size: 25px;}
+
+p{
+	font-family: 'Lora', serif;
+    font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color:#6B72E1
+	font-weight: bold;
+	transition: color 0.3s ease;}
+a:hover {
+	Color:black;}
+
+.Container {
+  width: 700px;
+  margin: 40px auto;
+}
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+.Card-White {
+	background-color: #f8f1f1;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.9);
+	border-radius: 3px;
+	margin: 30px 0px;
+	text-align: center;
+}
+.Btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.Btn-blue:hover {
+	background-color: Black;
+	color: White;
+}
+.List-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.List-inline li {
+	display: inline;
+	padding: 10px;
+}
+.List-inline i{
+	font-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+#Introduction p {
+	margin-bottom: 60px; 
+}
+@media (max-width: 960px){
+	.Container{
+		width: 700px
+	}}
+@media (max-width: 720px){
+	.Container{
+		width: 500px
+	}}
+@media (max-width: 540px){
+	.Container{
+		width: 300px
+	}}
+
+
+
+
+
+
+
